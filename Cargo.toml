@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "iterators/flatten01",
+    "iterators/iter01",
+    "iterators/iterflatten",
+    "lifetimes/strsplit",
+    "smartpointers/pointers"
+]
+resolver = "3"
