@@ -10,8 +10,8 @@ impl<'a, 'b> StrSplit<'a, 'b> {
             panic!("delimiter must be non-empty");
         }
         Self {
-            haystack: haystack,
-            delimiter: delimiter,
+            haystack,
+            delimiter,
             pos: 0,
         }
     }
